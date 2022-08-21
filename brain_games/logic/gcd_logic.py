@@ -19,9 +19,11 @@ def gcd_game():
         number_2 = randint(1, 100)
         print(f"Question: {number_1} {number_2}")
         answer = prompt.string('Your answer: ')
-        if answer == str(math.gcd(number_1, number_2)):
+        true_answer = math.gcd(number_1, number_2)
+        if answer == str(true_answer):
             print('Correct!')
-            index = index + 1
+            index += 1
         else:
-            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{math.gcd(number_1, number_2)}'.\nLet`s try again, {name}!")
+            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{true_answer}'."
+                         f"\nLet`s try again, {name}!")
     print(f'Congratulations, {name}!')

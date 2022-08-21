@@ -14,14 +14,14 @@ def calc_game():
     index = 0
     print("What is the result of the expression?")
     while index < 3:
-
         question = str(random.randint(1, 100))+' '+random.choice(['+', '-', '*'])+' '+str(random.randint(1, 100))
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer ==str(eval(question)):
+        true_answer = str(eval(question))
+        if answer == true_answer:
             print('Correct!')
-            index = index + 1
+            index += 1
         else:
-            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{(eval(question))}'.\nLet`s try again, {name}!")
+            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{true_answer}'."
+                         f"\nLet`s try again, {name}!")
     print(f'Congratulations, {name}!')
-

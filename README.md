@@ -11,5 +11,7 @@ brain-gcd:
 https://asciinema.org/a/cLk7f7zvz52ZgsT86VKWFiKcV
 brain-progression:
 https://asciinema.org/a/4i8ft6ldB2gdTNadpioOmokoP
+brain-prime:
+ https://asciinema.org/a/TSW6I8Q493UNf2rHzTLnAUNjy
 
 
