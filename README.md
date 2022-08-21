@@ -9,5 +9,7 @@ brain-calc:
 https://asciinema.org/a/9Oav25gVt3bXEDv1BHJ0GMaY8
 brain-gcd:
 https://asciinema.org/a/cLk7f7zvz52ZgsT86VKWFiKcV
+brain-progression:
+https://asciinema.org/a/4i8ft6ldB2gdTNadpioOmokoP
 
 
