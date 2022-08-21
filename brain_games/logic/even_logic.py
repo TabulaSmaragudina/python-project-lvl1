@@ -19,7 +19,7 @@ def even_game():
         answer = prompt.string('Your answer: ')
         if number % 2 == 0:
             true_answer = 'yes'
-        else:
+        elif number % 2 != 0:
             true_answer = 'no'
         if answer == true_answer:
             print('Correct!')
@@ -27,4 +27,5 @@ def even_game():
         else:
             print(f"""'{answer}' is wrong answer ;(.Correct answer was '{true_answer}'.
             Let's try again, {name}!""")
+            return 0
     print(f'Congratulations, {name}!')
