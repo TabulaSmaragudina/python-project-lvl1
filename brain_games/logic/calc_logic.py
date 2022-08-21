@@ -14,7 +14,10 @@ def calc_game():
     index = 0
     print("What is the result of the expression?")
     while index < 3:
-        question = str(random.randint(1, 100))+' '+random.choice(['+', '-', '*'])+' '+str(random.randint(1, 100))
+        number_1 = str(random.randint(1, 100))
+        number_2 = str(random.randint(1, 100))
+        op = random.choice(['+', '-', '*'])
+        question = number_1 + ' ' + op + ' ' + number_2
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         true_answer = str(eval(question))
