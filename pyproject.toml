@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.3"
-description = ""
+description = "Brain-Games is a funny game to cut your time and modefy your knowledge in math"
 packages = [{ include = "brain_games" }, ]
-authors = ["Your Name <you@example.com>"]
+authors = [" Чебупеля <ilsonkin@yandex.ru>"]
+repository = "https://github.com/TabulaSmaragudina/python-project-lvl1"
+classifiers = [
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
