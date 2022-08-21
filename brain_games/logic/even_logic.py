@@ -26,6 +26,6 @@ def even_game():
             index += 1
         else:
             print(f"""'{answer}' is wrong answer ;(.Correct answer was '{true_answer}'.
-            Let's try again, {name}!""")
+                        Let's try again, {name}!""")
             return 0
     print(f'Congratulations, {name}!')
