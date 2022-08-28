@@ -1,7 +1,8 @@
 from random import randint
 
 
-Description = """Answer "yes" if given number is prime. Otherwise answer "no"."""
+Description = """Answer "yes" if given number is prime.\
+ Otherwise answer "no"."""
 
 
 def main():
