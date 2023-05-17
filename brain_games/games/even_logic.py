@@ -4,11 +4,11 @@ from random import randint
 Description = "Answer 'yes' if the number is even, otherwise answer 'no'."
 
 
-def main():
+def run_logic():
     number = randint(1, 100)
-    print(f'Question: {number}')
+    question = number
     if number % 2 == 0:
         result = 'yes'
     elif number % 2 != 0:
         result = 'no'
-    return result
+    return result, question

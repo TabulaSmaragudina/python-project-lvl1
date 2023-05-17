@@ -1,4 +1,4 @@
-install:
+pinstall:
 	poetry install
 brain-games:
 	poetry run brain-games

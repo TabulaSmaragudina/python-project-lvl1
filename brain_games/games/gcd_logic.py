@@ -5,9 +5,9 @@ import math
 Description = "Find the greatest common divisor of given numbers."
 
 
-def main():
+def run_logic():
     number_1 = randint(1, 100)
     number_2 = randint(1, 100)
-    print(f"Question: {number_1} {number_2}")
+    question = f'{number_1} {number_2}'
     result = str(math.gcd(number_1, number_2))
-    return result
+    return result, question

@@ -5,7 +5,7 @@ Description = """Answer "yes" if given number is prime.\
  Otherwise answer "no"."""
 
 
-def main():
+def run_logic():
     number = randint(1, 100)
     d = 2
     while number % d != 0:
@@ -14,5 +14,5 @@ def main():
         result = 'yes'
     else:
         result = 'no'
-    print(f"Question: {number}")
-    return result
+    question = number
+    return result, question

@@ -7,15 +7,17 @@ def run_game(game):
     print(f'Hello, {name}!')
     print(game.Description)
     answers_count = 0
-    while answers_count < 3:
-        true_answer = game.main()
+    final_answer = 3
+    while answers_count < final_answer:
+        logic = game.run_logic()
+        print(f'Question: {logic[1]}')
+        true_answer = logic[0]
         answer = prompt.string('Your answer: ')
-        if answer == true_answer:
-            print('Correct!')
-            answers_count += 1
-        else:
+        if answer != true_answer:
             print(f"""'{answer}' is wrong answer ;(.\
 Correct answer was '{true_answer}'.
 Let's try again, {name}!""")
-            return 0
+            return
+        print('Correct!')
+        answers_count += 1
     print(f'Congratulations, {name}!')
