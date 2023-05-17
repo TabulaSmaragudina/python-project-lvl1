@@ -1,7 +1,7 @@
 from random import randint
 
 
-Description = f'Answer "yes" if the number is even, otherwise answer "no".'
+Description = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
 def run_logic():
