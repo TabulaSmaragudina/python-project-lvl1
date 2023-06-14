@@ -13,5 +13,10 @@
 * [brain-prime](https://asciinema.org/a/TSW6I8Q493UNf2rHzTLnAUNjy)
 * [install](https://asciinema.org/a/q1WufrSCrna3AfqEzfQoEGCPn)
 
-
-
+<a href="https://asciinema.org/a/yzYznqFHALrp1uPLe3CIyLZB9?autoplay=1"><img src="https://asciinema.org/a/yzYznqFHALrp1uPLe3CIyLZB9.png" width="836"/></a>
+<a href="https://asciinema.org/a/9Oav25gVt3bXEDv1BHJ0GMaY8?autoplay=1"><img src="https://asciinema.org/a/9Oav25gVt3bXEDv1BHJ0GMaY8.png" width="836"/></a>
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>
+<a href="https://asciinema.org/a/14?autoplay=1"><img src="https://asciinema.org/a/14.png" width="836"/></a>

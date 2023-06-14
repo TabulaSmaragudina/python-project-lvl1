@@ -6,9 +6,7 @@ def run_game(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.Description)
-    answers_count = 0
-    final_answer = 3
-    while answers_count < final_answer:
+    for i in range (3):
         logic = game.run_logic()
         print(f'Question: {logic[1]}')
         true_answer = logic[0]
@@ -19,5 +17,4 @@ Correct answer was '{true_answer}'.
 Let's try again, {name}!""")
             return
         print('Correct!')
-        answers_count += 1
     print(f'Congratulations, {name}!')
